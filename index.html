@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<head>
+	<title></title>
+</head>
+<body>
+ 
+	
+
+		<div>您的名字：<input type="text" name="yourName" id='name'></div>
+		<div>您的邮箱：<input type="text" name="yourEmail" id="email"/></div>
+		<div>您的建议：<textarea id="suggestion"></textarea></div>
+		
+		<button style="margin-left: 100px;" id="submit">发送</button>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script>
+	$('#submit').click(function(){
+		
+		var name = $('#name').val();
+		
+		console.log(name);
+		var email = $('#email').val();
+		console.log(email);
+		var suggestion = $('#suggestion').val();
+		console.log(suggestion);
+		
+		var submit_infor = {
+			'name' : name,
+			'email' : email,
+			'suggestion':suggestion
+		}
+		
+		
+		
+		
+		$.ajax({
+			url:"163.php",
+			data: submit_infor,
+			type:'POST',
+			success:function(data){
+				alert(data);
+				
+			},
+			
+			error:function(){
+				alert("提交失败！");
+			}
+		});
+		
+		
+	})
+	
+</script>
+
+</html>
