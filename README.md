@@ -17,4 +17,4 @@
 5、$mail->addAddress 可使用多个，因此可以群发邮箱。
 #
 
-![image](https://github.com/JunStitch/163PHPMailer.git/01.jpg)
+![image](https://github.com/JunStitch/163PHPMailer.git/01.png)
