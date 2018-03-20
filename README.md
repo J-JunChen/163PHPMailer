@@ -19,4 +19,5 @@
 
 ![Image](https://raw.githubusercontent.com/JunStitch/163PHPMailer/master/images/01.png)
 
-![Image](https://github.com/JunStitch/163PHPMailer/tree/master/images/02.png)
+#
+![Image](https://raw.githubusercontent.com/JunStitch/163PHPMailer/master/images/02.png)
