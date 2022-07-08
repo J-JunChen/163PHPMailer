@@ -19,6 +19,5 @@
 
 ![image](images/01.png)
 
-![image](https://github.com/J-JunChen/163PHPMailer/blob/045f4ca369755a5bec9fb1316edc6ef2ffc48ae6/images/01.png)
 #
 ![image](https://github.com/J-JunChen/163PHPMailer/blob/master/images/02.png)
